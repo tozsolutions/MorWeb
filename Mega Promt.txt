@@ -1,0 +1,325 @@
+You are not a developer.
+
+You are a FULL-SCALE DIGITAL AGENCY + ENTERPRISE SOFTWARE TEAM.
+
+You must build a COMPLETE, PRODUCTION-READY, SEO-DOMINANT, AI-INTEGRATED WEB PLATFORM.
+
+This is NOT a website.
+This is a DIGITAL SYSTEM.
+
+==================================================
+PROJECT IDENTITY
+==================================================
+
+Brand:
+TOZ Yapı Teknolojileri
+
+Location:
+Ankara, Turkey
+
+Business Scope:
+Advanced construction technologies, architectural systems, automation, shading systems, pergola, industrial doors, facade solutions, smart building systems.
+
+Website Language:
+Turkish
+
+System Language:
+English (internal logic)
+
+==================================================
+CRITICAL OBJECTIVE
+==================================================
+
+Build a system that:
+
+- Ranks on Google FIRST PAGE
+- Appears in AI answers (ChatGPT, Gemini, Copilot)
+- Generates leads automatically
+- Has enterprise-level architecture
+- Has ZERO missing technical component
+- Is scalable into SaaS
+
+==================================================
+CORE SYSTEM TYPE
+==================================================
+
+This is a:
+
+- Corporate Website
+- Product Catalog System
+- Technical Documentation Platform
+- BIM Library
+- AI Powered Lead Engine
+- SEO Machine
+- Automation System
+
+==================================================
+TECH STACK (MANDATORY)
+==================================================
+
+Frontend:
+Next.js 14 (App Router)
+TypeScript
+TailwindCSS
+Server Components
+
+Backend:
+Node.js + Express
+
+Database:
+PostgreSQL
+
+Cache:
+Redis
+
+Infra:
+Docker
+Cloudflare CDN
+HTTP/3
+Brotli
+
+==================================================
+SITE ARCHITECTURE (TOPIC CLUSTER)
+==================================================
+
+/ (Homepage)
+│
+├── /hakkimizda
+├── /urunler
+│   ├── /panjur
+│   ├── /kepenk
+│   ├── /pergola
+│   ├── /otomatik-kapilar
+│   ├── /zip-perde
+│   ├── /bim-kutuphanesi
+│   ├── /teknik-kutuphane
+│
+├── /blog
+├── /hesaplama-araclari
+├── /case-study
+├── /referanslar
+├── /kataloglar
+├── /tozsolutions
+├── /pergoclean (countdown system)
+├── /iletisim
+
+==================================================
+SEO ENGINE (CRITICAL)
+==================================================
+
+Implement:
+
+- sitemap.xml (auto)
+- robots.txt (AI crawler enabled)
+- llms.txt (AI optimized)
+- canonical tags
+- hreflang (multi-language)
+- schema.org full coverage
+
+Schema types:
+
+- Organization
+- Product
+- FAQ
+- Article
+- TechnicalArticle
+- Breadcrumb
+- LocalBusiness
+
+==================================================
+LLM SEO (VERY IMPORTANT)
+==================================================
+
+Create llms.txt including:
+
+- brand definition
+- product categories
+- technical expertise
+- keyword clusters
+- entity relationships
+
+Optimize content for:
+
+ChatGPT
+Copilot
+Gemini
+Claude
+
+==================================================
+CONTENT SYSTEM
+==================================================
+
+Content must include:
+
+- technical documentation
+- BIM files
+- CAD drawings
+- blog articles
+- FAQ
+- case studies
+- product pages
+
+Language: Turkish
+
+Tone:
+Professional + technical + premium
+
+==================================================
+BIM & TECH LIBRARY (MANDATORY)
+==================================================
+
+For each product:
+
+- Revit (.rfa)
+- IFC
+- DWG
+- STEP
+- 3D PDF
+- Section details
+- U-value report
+- Wind resistance
+- Fire certificate
+- CE documents
+
+==================================================
+CALCULATION TOOLS (DUCO+ LEVEL)
+==================================================
+
+Build:
+
+- solar angle calculator
+- wind load calculator
+- energy efficiency simulator
+- shading optimization tool
+- PDF report generator
+
+==================================================
+AI SYSTEM (TOZ SMART AI)
+==================================================
+
+Implement:
+
+- AI chatbot (Luna personality)
+- automatic quote generator
+- WhatsApp automation
+- content generation AI
+- product recommendation AI
+- project analyzer AI
+
+==================================================
+AUTOMATION SYSTEM
+==================================================
+
+Integrate:
+
+- n8n workflows
+- email automation
+- WhatsApp API
+- Instagram / TikTok / Pinterest automation
+- CRM integration
+
+==================================================
+PRODUCT SYSTEM
+==================================================
+
+Create:
+
+- full product catalog
+- categories + subcategories
+- technical pages
+- downloadable documents
+
+Hidden system:
+
+- online store backend (hidden)
+- pricing logic + markup
+
+==================================================
+BLOG SYSTEM (TRAFFIC ENGINE)
+==================================================
+
+Create:
+
+- 150+ articles plan
+- long-tail keyword targeting
+- internal linking system
+- cluster-based SEO
+
+==================================================
+BACKLINK & ANTI-SEO ENGINE
+==================================================
+
+Implement:
+
+- broken link detection
+- backlink cleaning system
+- spam detection
+- Ahrefs + Majestic integration
+- DR/TF/CF optimization logic
+
+==================================================
+PERFORMANCE TARGET
+==================================================
+
+Lighthouse: 95+
+
+Metrics:
+
+FCP <1.5s
+LCP <2.2s
+CLS <0.1
+
+==================================================
+SECURITY
+==================================================
+
+- JWT auth
+- rate limit
+- CSP
+- HSTS
+- OWASP protection
+
+==================================================
+ADMIN PANEL (ENTERPRISE)
+==================================================
+
+Create dashboard:
+
+- traffic analytics
+- keyword tracking
+- backlink monitoring
+- user management
+- subscription system
+
+==================================================
+DEPLOYMENT
+==================================================
+
+- Dockerized
+- CI/CD ready
+- Kubernetes ready
+- auto scaling
+- zero downtime
+
+==================================================
+FINAL OUTPUT
+==================================================
+
+Generate:
+
+- full project structure
+- all pages
+- all components
+- backend API
+- SEO system
+- AI system
+- automation logic
+- documentation
+
+NO PLACEHOLDERS
+NO SIMPLIFICATION
+NO MISSING PARTS
+
+This must be a REAL enterprise system.
+
+Build it like a top-tier global digital agency.

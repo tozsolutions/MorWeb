@@ -1,0 +1,23 @@
+================================================================
+PROMPT KAYIT DEFTERİ - PROMPT_LOG.txt
+================================================================
+Her prompt eklendiğinde/güncellendiğinde buraya yaz.
+Format: [TARİH] | [KLASÖR/DOSYA] | [AÇIKLAMA] | [DURUM]
+================================================================
+
+[2026-03-21] | 01_SISTEM_PROMPTLARI/blackcore_sistem.txt     | Blackcore AI gizli sistem promptu - temel AI ajans davranışı | AKTİF
+[2026-03-21] | 01_SISTEM_PROMPTLARI/luna_asistan.txt          | Luna müşteri asistanı sistem promptu                         | AKTİF
+[2026-03-21] | 01_SISTEM_PROMPTLARI/seo_motoru.txt            | Ultra SEO büyüme motoru - otomatik içerik fabrikası          | AKTİF
+[2026-03-21] | 02_SITE_PROMPTLARI/site1_karanlik_neon.txt     | Site 1 - Koyu tema + Neon Yeşil tasarım promptu              | TAMAMLANDI
+[2026-03-21] | 02_SITE_PROMPTLARI/site2_altin_luks.txt        | Site 2 - Altın/Lüks tema tasarım promptu                     | TAMAMLANDI
+[2026-03-21] | 02_SITE_PROMPTLARI/site3_beyaz_kurumsal.txt    | Site 3 - Beyaz/Kurumsal tema tasarım promptu                 | TAMAMLANDI
+[2026-03-21] | 02_SITE_PROMPTLARI/site4_mor_teknoloji.txt     | Site 4 - Mor/Teknoloji tema tasarım promptu                  | TAMAMLANDI
+[2026-03-21] | 04_MUSTERI_PROMPTLARI/luna_karsilama.txt       | Luna ilk karşılama mesajı şablonu                            | AKTİF
+[2026-03-21] | 05_BUYUME_PROMPTLARI/ultra_seo_motor.txt       | Ultra merge büyüme motoru SEO promptu                        | AKTİF
+
+================================================================
+NOTLAR:
+================================================================
+- DURUM seçenekleri: AKTİF / TEST / TAMAMLANDI / ESKİ
+- ESKİ promptları silme, sadece DURUM'u güncelle
+================================================================

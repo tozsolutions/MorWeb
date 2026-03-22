@@ -1,0 +1,311 @@
+================================================================
+TOZ YAPI - FINAL KONTROL LISTESI (PRE-LAUNCH)
+================================================================
+Tarih: 2026-03-21
+Proje: TOZ Smart Web Platform
+Durum: Web Builder'a teslim edilecek
+================================================================
+
+BOLUM 1: DOSYA KONTROLU
+================================================================
+[X] 4.html (ana tema - Mor/Pembe gradient) sabitlendi
+[X] Diger temalar (1,2,3,5,6,7) temizlendi
+[X] web.txt analiz edildi ve entegre edildi
+[X] Mega Promt.txt sistem prompt'u hazır
+[X] blackcore_ai_secret_prompt.txt AI ajanları hazır
+[X] ultra_merge_growth_prompt.txt SEO growth hazır
+[X] TESLIM_DOSYASI.txt oluşturuldu
+[ ] TOZYAPIWEB klasörü ZIP'lenecek
+
+================================================================
+BOLUM 2: TEKNİK ALTYAPI KONTROLU
+================================================================
+[ ] Next.js 14 App Router kurulumu
+[ ] TypeScript konfigürasyonu
+[ ] TailwindCSS yapılandırması
+[ ] PostgreSQL database setup
+[ ] Redis cache kurulumu
+[ ] Docker containerization
+[ ] CI/CD pipeline (GitHub Actions)
+
+================================================================
+BOLUM 3: SEO ALTYAPISI
+================================================================
+[ ] sitemap.xml otomatik oluşturma
+[ ] robots.txt AI crawler izinleri
+[ ] llms.txt AI optimized içerik
+[ ] canonical tags tüm sayfalarda
+[ ] hreflang (TR-EN-DE-AR-FR-IT-FA-HR-SR-BS-ZH)
+[ ] schema.org markup (10+ tip)
+[ ] JSON-LD structured data
+
+================================================================
+BOLUM 4: SAYFA MIMARISI
+================================================================
+[ ] Ana sayfa (/) - Hero + Ürünler + Luna AI
+[ ] Hakkımızda (/hakkimizda)
+[ ] Ürünler (/urunler)
+    [ ] Panjur alt sayfaları
+    [ ] Kepenk alt sayfaları
+    [ ] Pergola alt sayfaları
+    [ ] Otomatik Kapılar
+    [ ] Zip Perde
+    [ ] BIM Kütüphanesi
+    [ ] Teknik Kütüphane
+[ ] Blog (/blog)
+    [ ] Enerji Verimliliği
+    [ ] Akıllı Otomasyon
+    [ ] BIM Teknoloji
+    [ ] Mimari Çözümler
+[ ] Hesaplama Araçları (/hesaplama-araclari)
+    [ ] Güneş Açısı Simülasyonu
+    [ ] Rüzgar Hesabı
+    [ ] Isı Yalıtımı
+[ ] Case Study (/case-study)
+[ ] Referanslar (/referanslar)
+[ ] Kataloglar (/kataloglar)
+[ ] TozSolutions (/tozsolutions)
+[ ] PergoClean (/pergoclean) - Geri sayım sayacı
+[ ] İletişim (/iletisim)
+
+================================================================
+BOLUM 5: LUNA AI SISTEMI
+================================================================
+[ ] Chatbot widget (sağ alt köşe)
+[ ] WhatsApp API entegrasyonu
+[ ] Otomatik teklif üretici
+[ ] Çok dilli destek (6 dil)
+[ ] Gerçekçi kadın avatar
+[ ] n8n workflow entegrasyonu
+[ ] Email automation
+[ ] CRM integration (HubSpot/Mailchimp)
+
+================================================================
+BOLUM 6: ONLINE MAGAZA (GIZLI)
+================================================================
+[ ] Poledoor.com tüm ürünler kopyalandı
+[ ] Fiyatlar %20 artırıldı
+[ ] Renk paleti TOZ temasına uyarlandı
+[ ] İçerikte GİZLİ (görünmüyor)
+[ ] Backend'de aktif
+
+================================================================
+BOLUM 7: TEKNİK DOKÜMANTASYON
+================================================================
+[ ] BIM dosyaları (.rfa, .ifc, .dwg, .step, 3d pdf)
+[ ] Teknik kesit çizimleri
+[ ] U-Value hesap raporları
+[ ] Rüzgar dayanımı testleri
+[ ] Yangın sertifikaları
+[ ] CE & TSE belgeleri
+[ ] Montaj animasyonları
+
+================================================================
+BOLUM 8: HESAPLAMA ARAÇLARI (CANLI)
+================================================================
+[ ] Güneş pozisyon simülasyonu
+[ ] Gölgeleme açısı hesaplayıcı
+[ ] Enerji tasarruf simülasyonu
+[ ] Cephe yük hesaplayıcı
+[ ] Rüzgar basıncı analizi
+[ ] Proje PDF çıktısı
+
+================================================================
+BOLUM 9: BLOG SISTEMI
+================================================================
+[ ] 150+ blog yazısı planı hazır
+[ ] Poledoor blog içerikleri uyarlandı
+[ ] Long-tail keyword targeting
+[ ] Internal linking machine
+[ ] Schema markup (FAQ, Article, HowTo)
+[ ] Cluster-based SEO
+
+================================================================
+BOLUM 10: PERFORMANS OPTIMIZASYONU
+================================================================
+[ ] Lighthouse skoru 95+
+[ ] FCP <1.5s
+[ ] LCP <2.2s
+[ ] CLS <0.1
+[ ] Image optimization (WebP + AVIF)
+[ ] Code splitting
+[ ] ISR (Incremental Static Regeneration)
+[ ] Edge caching
+[ ] Brotli compression
+[ ] HTTP/3
+[ ] Critical CSS preload
+
+================================================================
+BOLUM 11: GUVENLIK
+================================================================
+[ ] JWT auth (15min access, 7day refresh)
+[ ] Rate limit (100 req/sec)
+[ ] CSP (Content Security Policy)
+[ ] HSTS preload
+[ ] Secure cookies (HttpOnly)
+[ ] OWASP Top 10 protection
+[ ] Input validation (Zod)
+[ ] Helmet headers
+[ ] SQL injection prevention (Prisma)
+
+================================================================
+BOLUM 12: BACKLINK SISTEMI
+================================================================
+[ ] Broken link detection
+[ ] Competitor backlink scraping
+[ ] Automated outreach
+[ ] DR/TF/CF tracking
+[ ] Spam score monitoring
+[ ] Disavow automation
+[ ] Ahrefs webhook
+[ ] Majestic API
+
+================================================================
+BOLUM 13: SOSYAL MEDYA OTOMASYONU
+================================================================
+[ ] Instagram (@toz.solutions)
+[ ] TikTok
+[ ] Pinterest
+[ ] YouTube
+[ ] Auto-content creation
+[ ] Auto-publishing
+[ ] Traffic drive to website
+
+================================================================
+BOLUM 14: ANALYTICS
+================================================================
+[ ] Google Search Console API
+[ ] Google Analytics 4 API
+[ ] PageSpeed Insights API
+[ ] Ahrefs webhook
+[ ] Majestic API
+[ ] Haftalık trafik raporu
+[ ] Keyword değişimi
+[ ] Backlink kalite kontrol
+[ ] Spam link tespiti
+
+================================================================
+BOLUM 15: ADMIN PANEL
+================================================================
+[ ] /admin/analytics (grafikler)
+[ ] /admin/users (kullanıcı yönetimi)
+[ ] /admin/billing (subscription)
+[ ] /admin/logs (audit log)
+[ ] /admin/seo (keyword tracking)
+[ ] /admin/backlinks (monitor)
+[ ] RBAC (SUPER_ADMIN, ADMIN, EDITOR, VIEWER)
+[ ] Subscription plans (FREE, PRO, ENTERPRISE)
+
+================================================================
+BOLUM 16: TEST COVERAGE
+================================================================
+[ ] Unit tests (Jest) - ≥90% coverage
+[ ] Integration tests (Supertest)
+[ ] E2E tests (Cypress)
+[ ] Lighthouse CI automation
+[ ] Test DB isolation
+[ ] CI pipeline enforced
+[ ] Fail durumunda merge engelleme
+
+================================================================
+BOLUM 17: DEPLOYMENT
+================================================================
+[ ] Docker build
+[ ] Kubernetes manifests
+[ ] Cloudflare CDN setup
+[ ] SSL certificate (Let's Encrypt)
+[ ] Domain yönlendirme (www/non-www)
+[ ] Environment variables (.env)
+[ ] Database migrations
+[ ] Redis connection
+[ ] Zero downtime deployment
+
+================================================================
+BOLUM 18: CONTENT CHECK
+================================================================
+[ ] Tüm metinler Türkçe
+[ ] Ton: Professional + technical + premium
+[ ] Görseller optimize edilmiş
+[ ] Videolar eklenmiş
+[ ] PDF'ler indirilebilir
+[ ] BIM dosyaları çalışıyor
+[ ] Formlar test edildi
+[ ] WhatsApp float çalışıyor
+
+================================================================
+BOLUM 19: MOBIL UYUMLULUK
+================================================================
+[ ] Responsive tasarım (tüm cihazlar)
+[ ] Touch-friendly alanlar
+[ ] Mobile-first index
+[ ] AMP pages (opsiyonel)
+[ ] PWA (Progressive Web App)
+[ ] Offline mode (service worker)
+
+================================================================
+BOLUM 20: LAUNCH ONCESI SON KONTROL
+================================================================
+[ ] Domain DNS ayarları
+[ ] SSL aktif (HTTPS)
+[ ] 404 page custom
+[ ] 301 redirects (eski URL'ler)
+[ ] Robots.txt test
+[ ] Sitemap test
+[ ] Analytics kodları
+[ ] Search Console verification
+[ ] Bing Webmaster Tools
+[ ] Yandex Webmaster
+[ ] Social media meta tags (Open Graph)
+[ ] Twitter Cards
+[ ] LinkedIn Open Graph
+
+================================================================
+SON ADIM: ZIP OLUSTURMA
+================================================================
+Komut:
+cd C:\Users\Admin\Desktop\TOZYAPIWEB
+Compress-Archive -Path * -DestinationPath ..\TOZYAPIWEB_FINAL.zip -Force
+
+VEYA manuel olarak:
+1. TOZYAPIWEB klasörüne git
+2. Tüm dosyaları seç
+3. Sağ tık → Gönder → Sıkıştırılmış (zip) klasör
+4. Ad: TOZYAPIWEB_FINAL.zip
+
+================================================================
+ZIP ICERIGI:
+================================================================
+TOZYAPIWEB_FINAL.zip
+├── 4.html (ana tema referansı)
+├── _PROMPT_ARSIV/
+│   ├── ARSIV_REHBERI.txt
+│   ├── PROMPT_LOG.txt
+│   └── ... (prompt dosyaları)
+├── _DEPLOY_REHBERI/
+│   ├── HIZLI_BASLANGIC.txt
+│   ├── DEPLOY_REHBERI_TAM.txt
+│   └── TESLIM_DOSYASI.txt (BU BELGE)
+├── README_ANA_REHBER.txt
+└── Final_Kontrol_Listesi.txt (bu dosya)
+
+================================================================
+WEB BUILDER'A TALIMATLAR
+================================================================
+
+1. ZIP dosyasını aç
+2. _DEPLOY_REHBERI/TESLIM_DOSYASI.txt oku
+3. Tüm gereksinimleri uygula
+4. Production-ready kod yaz
+5. Test coverage ≥90% sağla
+6. Lighthouse 95+ garantisi ver
+7. Deployment-ready paketle
+
+KRITIK:
+- Placeholder YOK
+- Basitleştirme YOK
+- Eksik component YOK
+- Enterprise seviyesinde olacak
+
+================================================================
+BELGE SONU - WEB BUILDER HAZIR
+================================================================

@@ -1,0 +1,160 @@
+# Toz Yapı Teknolojileri - LLMs.txt
+# Bu dosya yapay zeka modelleri için site içeriğini özetler
+
+## Şirket Adı
+Toz Yapı Teknolojileri
+
+## Sektör
+Yapı teknolojileri, otomasyon sistemleri, mimari çözümler
+
+## Ana Sayfa
+https://www.tozyapi.com.tr/
+
+## Kurumsal Sayfalar
+- Hakkımızda: https://www.tozyapi.com.tr/#hakkimizda
+- Katalog: https://www.tozyapi.com.tr/katalog
+- Referanslar: https://www.tozyapi.com.tr/referanslar
+- S.S.S: https://www.tozyapi.com.tr/sss
+- İletişim: https://www.tozyapi.com.tr/#iletisim
+- İş Ortaklarımız: https://www.tozyapi.com.tr/is-ortaklarimiz
+
+## Blog
+- Ana Blog: https://www.tozyapi.com.tr/blog
+- AKILLI EV SİSTEMLERİ ve ENTEGRASYONLAR: https://www.tozyapi.com.tr/blog/akilli-ev-sistemleri-ve-entegrasyonlar
+- ALÜMİNYUM SİSTEMLER HAKKINDA: https://www.tozyapi.com.tr/blog/aluminyum-sistemler-hakkinda
+- SÜRME DOĞRAMALAR HAKKINDA: https://www.tozyapi.com.tr/blog/surme-dogramalar-hakkinda
+
+## Online Mağaza
+https://www.tozyapi.com.tr/online-magaza
+
+## PergoClean (Henüz Aktif Edilmeyecek)
+https://www.tozyapi.com.tr/pergoclean
+
+## Ürün Gruplarımız
+
+### (ALÜMİNYUM - PVC - AHŞAP) KAPI, PENCERE, DOĞRAMA ve CEPHE ÇÖZÜMLERİ
+- Ana Kategori: https://www.tozyapi.com.tr/urunler/kapi-pencere-dograma-cephe
+- AHŞAP KAPI, PENCERE VE DOGRAMA ÇÖZÜMLERİ: https://www.tozyapi.com.tr/urunler/kapi-pencere-dograma-cephe/ahsap-cozumler
+- ALÜMİNYUM KAPI, PENCERE VE DOGRAMA ÇÖZÜMLERİ: https://www.tozyapi.com.tr/urunler/kapi-pencere-dograma-cephe/aluminyum-cozumler
+- PVC KAPI, PENCERE VE DOGRAMA ÇÖZÜMLERİ: https://www.tozyapi.com.tr/urunler/kapi-pencere-dograma-cephe/pvc-cozumler
+
+### AKILLI CAM UYGULAMALARI
+https://www.tozyapi.com.tr/urunler/akilli-cam-uygulamalari
+
+### AÇIK HAVA MUTFAKLARI
+https://www.tozyapi.com.tr/urunler/acik-hava-mutfaklari
+
+### BAHÇE VE ÇİT SİSTEMLERİ
+https://www.tozyapi.com.tr/urunler/bahce-ve-cit-sistemleri
+
+### DIŞ CEPHE JALUZİSİ - BRISOLEY
+https://www.tozyapi.com.tr/urunler/dis-cephe-jaluzisi-brisoley
+
+### HAVUZ KAPAMA ÇÖZÜMLERİ
+https://www.tozyapi.com.tr/urunler/havuz-kapama-cozumleri
+
+### ISITMA VE SOĞUTMA SİSTEMLERİ
+https://www.tozyapi.com.tr/urunler/isitma-ve-sogutma-sistemleri
+
+### KAPI SİSTEMLERİ
+- Ana Kategori: https://www.tozyapi.com.tr/urunler/kapi-sistemleri
+- Akustik Kapılar: https://www.tozyapi.com.tr/urunler/kapi-sistemleri/akustik-kapilar
+- Bahçe Kapıları (Yanakayar-Dairesel-90): https://www.tozyapi.com.tr/urunler/kapi-sistemleri/bahce-kapilari
+- Garaj Kapıları: https://www.tozyapi.com.tr/urunler/kapi-sistemleri/garaj-kapilari
+  - Dekoratif seksiyonel garaj kapısı: https://www.tozyapi.com.tr/urunler/kapi-sistemleri/garaj-kapilari/dekoratif-seksiyonel
+  - Endüstriyel Seksiyonel Garaj Kapısı: https://www.tozyapi.com.tr/urunler/kapi-sistemleri/garaj-kapilari/endustriyel-seksiyonel
+  - Full Vision Kapılar: https://www.tozyapi.com.tr/urunler/kapi-sistemleri/garaj-kapilari/full-vision
+  - Soğuk Hava Korukleri: https://www.tozyapi.com.tr/urunler/kapi-sistemleri/garaj-kapilari/soguk-hava-korukleri
+  - Yükleme Rampaları: https://www.tozyapi.com.tr/urunler/kapi-sistemleri/garaj-kapilari/yukleme-rampalari
+- Otomatik Kapılar: https://www.tozyapi.com.tr/urunler/kapi-sistemleri/otomatik-kapilar
+  - Flip Flow Kapılar: https://www.tozyapi.com.tr/urunler/kapi-sistemleri/otomatik-kapilar/flip-flow-kapilar
+  - Fotoselli 90 Derece Açılır Kapılar: https://www.tozyapi.com.tr/urunler/kapi-sistemleri/otomatik-kapilar/fotoselli-90-derece-acilir
+  - Fotoselli Döner Kapılar: https://www.tozyapi.com.tr/urunler/kapi-sistemleri/otomatik-kapilar/fotoselli-doner
+  - Fotoselli Kayar Kapı: https://www.tozyapi.com.tr/urunler/kapi-sistemleri/otomatik-kapilar/fotoselli-kayar
+  - Güvenlikli Giriş Kapıları: https://www.tozyapi.com.tr/urunler/kapi-sistemleri/otomatik-kapilar/guvenlikli-giris
+  - Hermetik Kapılar: https://www.tozyapi.com.tr/urunler/kapi-sistemleri/otomatik-kapilar/hermetik-kapilar
+  - Paslanmaz ve HPL Hermetik Kapılar: https://www.tozyapi.com.tr/urunler/kapi-sistemleri/otomatik-kapilar/paslanmaz-hpl-hermetik
+  - Teleskobik Kapılar: https://www.tozyapi.com.tr/urunler/kapi-sistemleri/otomatik-kapilar/teleskobik-kapilar
+- PVC Kapılar: https://www.tozyapi.com.tr/urunler/kapi-sistemleri/pvc-kapilar
+  - Hızlı PVC Katlanır Kapılar: https://www.tozyapi.com.tr/urunler/kapi-sistemleri/pvc-kapilar/hizli-pvc-katlanir
+  - Hızlı PVC Sarmal Kapılar: https://www.tozyapi.com.tr/urunler/kapi-sistemleri/pvc-kapilar/hizli-pvc-sarmal
+- Yangın Kapıları: https://www.tozyapi.com.tr/urunler/kapi-sistemleri/yangin-kapilari
+
+### KEPENK SİSTEMLERİ
+- Ana Kategori: https://www.tozyapi.com.tr/urunler/kepenk-sistemleri
+- Alüminyum Kepenk: https://www.tozyapi.com.tr/urunler/kepenk-sistemleri/aluminyum-kepenk
+- Alüminyum Poliüretan Dolgulu Kepenk: https://www.tozyapi.com.tr/urunler/kepenk-sistemleri/aluminyum-poliuretan-dolgulu
+- Balistik Kepenk: https://www.tozyapi.com.tr/urunler/kepenk-sistemleri/balistik-kepenk
+- Katlanır Kepenk: https://www.tozyapi.com.tr/urunler/kepenk-sistemleri/katanir-kepenk
+- Kayar Katlanır Kepenk: https://www.tozyapi.com.tr/urunler/kepenk-sistemleri/kayar-katanir-kepenk
+- Çelik (Sac) Kepenk: https://www.tozyapi.com.tr/urunler/kepenk-sistemleri/celik-sac-kepenk
+- Çelik Poliüretan Dolgulu Kepenk: https://www.tozyapi.com.tr/urunler/kepenk-sistemleri/celik-poliuretan-dolgulu
+- Şeffaf Kepenk: https://www.tozyapi.com.tr/urunler/kepenk-sistemleri/seffaf-kepenk
+
+### KIŞ BAHÇESİ
+https://www.tozyapi.com.tr/urunler/kis-bahcesi
+
+### PANJUR SİSTEMLERİ
+- Ana Kategori: https://www.tozyapi.com.tr/urunler/panjur-sistemleri
+- Ahşap Panjur: https://www.tozyapi.com.tr/urunler/panjur-sistemleri/ahsap-panjur
+- Dıştan Takma Panjur: https://www.tozyapi.com.tr/urunler/panjur-sistemleri/distan-takma-panjur
+- Gizli Panjur: https://www.tozyapi.com.tr/urunler/panjur-sistemleri/gizli-panjur
+- Kayar Katlanır Panjur: https://www.tozyapi.com.tr/urunler/panjur-sistemleri/kayar-katanir-panjur
+- Makaslı Panjur: https://www.tozyapi.com.tr/urunler/panjur-sistemleri/makasli-panjur
+- Menteşeli Panjur: https://www.tozyapi.com.tr/urunler/panjur-sistemleri/menteseli-panjur
+- Monoblok Panjur: https://www.tozyapi.com.tr/urunler/panjur-sistemleri/monoblok-panjur
+- Strafor Kutu Panjur -LENTO KUTU-: https://www.tozyapi.com.tr/urunler/panjur-sistemleri/strafor-kutu-panjur-lento
+
+### PERGOLA ROLLING ROOF BIOCLOMATIC TENTE
+- Ana Kategori: https://www.tozyapi.com.tr/urunler/pergola-rolling-roof-bioclimatic-tente
+- BIO-CLOMATIC: https://www.tozyapi.com.tr/urunler/pergola-rolling-roof-bioclimatic-tente/bio-clomatic
+- CAM TAVAN: https://www.tozyapi.com.tr/urunler/pergola-rolling-roof-bioclimatic-tente/cam-tavan
+- PERGOLA: https://www.tozyapi.com.tr/urunler/pergola-rolling-roof-bioclimatic-tente/pergola
+- ROLLING ROOF: https://www.tozyapi.com.tr/urunler/pergola-rolling-roof-bioclimatic-tente/rolling-roof
+- TENTE: https://www.tozyapi.com.tr/urunler/pergola-rolling-roof-bioclimatic-tente/tente
+
+### SUNDURMA ve ARAÇ PARKI (Carport)
+https://www.tozyapi.com.tr/urunler/sundurma-ve-arac-parki-carport
+
+### TURNİKE VE BARİYER SİSTEMLERİ
+- Ana Kategori: https://www.tozyapi.com.tr/urunler/turnike-ve-bariyer-sistemleri
+- BARİYER SİSTEMLERİ: https://www.tozyapi.com.tr/urunler/turnike-ve-bariyer-sistemleri/bariyer-sistemleri
+- TURNİKE SİSTEMLERİ: https://www.tozyapi.com.tr/urunler/turnike-ve-bariyer-sistemleri/turnike-sistemleri
+
+### YERLİ VE İTHAL SİNEKLİK SİSTEMLERİ
+https://www.tozyapi.com.tr/urunler/yerli-ve-ithal-sineklik-sistemleri
+
+### ZİP PERDE GİYOTİN RÜZGAR KIRICI SÜRME SİSTEMLERİ
+- Ana Kategori: https://www.tozyapi.com.tr/urunler/zip-perde-giyotin-ruzgar-kirici-surme-sistemleri
+- GİYOTİN SİSTEMLERİ: https://www.tozyapi.com.tr/urunler/zip-perde-giyotin-ruzgar-kirici-surme-sistemleri/giyotin-sistemleri
+- RÜZGAR KIRICI SİSTEMLERİ: https://www.tozyapi.com.tr/urunler/zip-perde-giyotin-ruzgar-kirici-surme-sistemleri/ruzgar-kirici-sistemleri
+- SÜRME SİSTEMLERİ: https://www.tozyapi.com.tr/urunler/zip-perde-giyotin-ruzgar-kirici-surme-sistemleri/surme-sistemleri
+- ZİP PERDE SİSTEMLERİ: https://www.tozyapi.com.tr/urunler/zip-perde-giyotin-ruzgar-kirici-surme-sistemleri/zip-perde-sistemleri
+
+## AI Asistan
+**YapayZekaBot_Luna**
+- Luna AI Sayfası: https://www.tozyapi.com.tr/luna-ai
+- WhatsApp: +90 536 773 14 04
+- Özellikler: Çok dilli, satış odaklı, 7/24 aktif
+
+## Hedef Kitle
+- Müteahhitler ve inşaat firmaları
+- Mimarlar ve iç mimarlar
+- Mühendisler
+- Ev sahipleri ve property yöneticileri
+- Otel ve resort işletmeleri
+- Hastane ve sağlık kuruluşları
+- Endüstriyel tesis yöneticileri
+- AVM ve ticari yapı işletmecileri
+
+## Konum
+Bilkent Center AVM No:3, Çankaya / Ankara, Türkiye
+
+## İletişim
+- Telefon: +90 536 773 14 04
+- E-posta: merhaba@tozyapi.com.tr
+- Instagram: @toz.solutions
+- Web: https://www.tozyapi.com.tr
+
+## İzinler
+Bu site içeriği eğitim amaçlı kullanılamaz. Referans ve bilgi amaçlı özetleme serbesttir.

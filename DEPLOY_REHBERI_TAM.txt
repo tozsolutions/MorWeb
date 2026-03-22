@@ -1,0 +1,190 @@
+================================================================
+TOZYAPIWEB - DEPLOY (YAYINLAMA) REHBERİ
+================================================================
+Hazırlayan: TOZYAPIWEB Sistemi
+Tarih: 2026-03-21
+Versiyon: 1.0
+================================================================
+
+Bu belgede www.tozyapi.com.tr siteni nasıl yayınlayacağın
+adım adım anlatılmıştır. Teknik bilgi gerekmez.
+
+================================================================
+BÖLÜM 1: HANGİ SİTEYİ SEÇECEKSIN?
+================================================================
+
+TOZYAPIWEB klasöründe 4 farklı site var:
+
+  Klasör /1  → Koyu + Neon Yeşil (Orijinal Toz Yapı renkleri)
+              Profesyonel, güçlü, sektörel
+              ÖNERİ: Ana site için en uygun
+
+  Klasör /2  → Koyu Lacivert + Altın (Lüks / Premium)
+              Üst segment müşteriler için etkileyici
+              ÖNERİ: Kurumsal müşteri hedefliyorsan
+
+  Klasör /3  → Beyaz + Açık (Kurumsal / Temiz)
+              Modern, sade, okunması kolay
+              ÖNERİ: Yeni müşterilere güven vermek için
+
+  Klasör /4  → Koyu Mor + Gradient (Teknoloji / Fütüristik)
+              Yenilikçi, farklı, dikkat çekici
+              ÖNERİ: Dijital dönüşüm mesajı vermek için
+
+Karar ver → Seçtiğin klasörün içindeki index.html ana dosyan.
+
+================================================================
+BÖLÜM 2: NETLIFY İLE ÜCRETSİZ YAYINLAMA (EN KOLAY YOL)
+================================================================
+
+ADIM 1: Netlify Hesabı Aç
+  → https://netlify.com adresine git
+  → "Sign up" → "Sign up with Google" seç
+  → Google hesabınla giriş yap (ücretsiz)
+
+ADIM 2: Siteyi Yükle
+  → Netlify'a giriş yaptıktan sonra ana sayfada
+    "Sites" sekmesine tıkla
+  → Büyük kutunun içine şunu görürsün:
+    "Drag and drop your site folder here"
+  → Seçtiğin klasörü (örn: TOZYAPIWEB/1) olduğu gibi
+    bu kutuya sürükle-bırak
+  → Birkaç saniye bekle → Site yayında!
+
+ADIM 3: Geçici Link Al
+  → Netlify sana bir link verir: örn. amazing-tesla-123.netlify.app
+  → Bu linkle siten çalışıyor mu test et
+
+ADIM 4: Kendi Alan Adını Bağla (tozyapi.com.tr)
+  → Netlify → Sites → Sitenin adı → "Domain settings"
+  → "Add a domain" → "tozyapi.com.tr" yaz
+  → Netlify sana DNS ayarlarını gösterir
+  → Domain sağlayıcına git (isimtescil.net, natro.com vb.)
+  → DNS yönetimine gir → Netlify'ın gösterdiği kayıtları ekle
+  → 24-48 saat içinde aktif olur
+
+================================================================
+BÖLÜM 3: GITHUB + NETLIFY İLE OTOMATİK YAYINLAMA (ÖNERİLEN)
+================================================================
+
+Bu yöntemle dosyaları değiştirdiğinde site otomatik güncellenir.
+
+ADIM 1: GitHub Hesabı Aç
+  → https://github.com → Ücretsiz hesap oluştur
+
+ADIM 2: Yeni Repository (Depo) Oluştur
+  → GitHub → "New repository" → İsim: tozyapi-web
+  → Public seç → "Create repository"
+
+ADIM 3: Dosyaları Yükle
+  → Repository sayfasında "uploading an existing file" tıkla
+  → Seçtiğin site klasörünün TÜM içeriğini seç ve yükle
+  → Commit: "İlk yükleme" → "Commit changes"
+
+ADIM 4: Netlify'ı GitHub'a Bağla
+  → Netlify → "Add new site" → "Import an existing project"
+  → "Deploy with GitHub" → Hesabına izin ver
+  → "tozyapi-web" repository'yi seç
+  → Build settings: boş bırak (HTML site)
+  → "Deploy site" → Tamamdır!
+
+Artık GitHub'a dosya yükledikçe site otomatik güncellenir.
+
+================================================================
+BÖLÜM 4: İÇERİK GÜNCELLEME REHBERİ
+================================================================
+
+SİTEDE DEĞİŞTİRMEN GEREKEN YERLER:
+
+1. TELEFON NUMARASI:
+   index.html dosyasını Notepad ile aç
+   Ctrl+H → Bul: +90 XXX XXX XX XX
+   Yerine: Gerçek numaran
+   Kaydet
+
+2. E-POSTA:
+   Ctrl+H → Bul: info@tozyapi.com.tr
+   Yerine: Gerçek e-posta adresin
+
+3. WHATSAPP NUMARASI:
+   Ctrl+H → Bul: 905XXXXXXXXX
+   Yerine: 90 + numaranı (başında 0 olmadan)
+   Örnek: 905321234567
+
+4. ADRES BİLGİSİ:
+   "Toz Yapı Teknolojileri" bölümünü bul
+   Adres satırını gerçek adresinle değiştir
+
+5. LOGO / GÖRSELLER:
+   Klasörün içine "images" klasörü aç
+   Logo dosyasını "logo.png" olarak koy
+   index.html'de logo src'yi "images/logo.png" yap
+
+================================================================
+BÖLÜM 5: FORM ÇALIŞMASI İÇİN FORMSPREE KURULUMU
+================================================================
+
+Sitedeki iletişim formu için ücretsiz Formspree kullan:
+
+ADIM 1: https://formspree.io → Ücretsiz hesap aç
+
+ADIM 2: "New Form" → İsim: Toz Yapı İletişim
+
+ADIM 3: Sana bir form ID verir: örn. "xvoeqpla"
+
+ADIM 4: index.html'i aç, form etiketini bul:
+   <form ...>
+   action="https://formspree.io/f/BURAYA_ID_YAZ" yap
+
+ADIM 5: Formspree dashboard'ında gelen mesajları görürsün
+   E-posta bildirimi de gönderilir.
+
+================================================================
+BÖLÜM 6: LUNA AI'YI WHATSAPP'A BAĞLAMA
+================================================================
+
+Sitedeki "Luna ile Konuş" butonu WhatsApp'ı açar.
+Ama gerçek AI yanıtları için n8n + WhatsApp Business gerekir.
+
+HAZIR YÖNTEM (Hızlı Başlangıç):
+  1. WhatsApp Business uygulamasını indir
+  2. Hızlı Yanıtlar özelliğini kur (ücretsiz)
+  3. En sık sorulan soruları hazır yanıt olarak ekle
+  4. Bu sana %80 verimlilik sağlar
+
+TAM AI YÖNTEMI (n8n ile):
+  Bkz: IO klasörü → TR_Gruplar → 08_WhatsApp_Botu
+
+================================================================
+BÖLÜM 7: SSL (HTTPS) VE GÜVENLİK
+================================================================
+
+Netlify kullanıyorsan SSL otomatik gelir (ücretsiz).
+"https://" ile başlayan adres = güvenli = Google'da avantaj.
+
+Başka hosting kullanıyorsan:
+  → Let's Encrypt ile ücretsiz SSL alabilirsin
+  → Hosting panelinde "SSL" veya "Let's Encrypt" seçeneği ara
+
+================================================================
+KONTROL LİSTESİ - YAYINLAMADAN ÖNCE:
+================================================================
+
+[ ] Telefon numarası doğru mu?
+[ ] WhatsApp numarası doğru mu?
+[ ] E-posta adresi doğru mu?
+[ ] Şirket adresi doğru mu?
+[ ] İletişim formu test edildi mi?
+[ ] Tüm linklere tıklandı mı?
+[ ] Mobilde görüntü kontrol edildi mi?
+[ ] SSL (https) aktif mi?
+[ ] Google arama konsoluna eklendi mi?
+
+================================================================
+DESTEK:
+================================================================
+Sorun yaşarsan: toz yappı klasöründeki dosyaları incele
+veya YouTube'da "Netlify ile site yayınlama" ara.
+
+Teknik destek: Qoder AI asistanına sor
+================================================================

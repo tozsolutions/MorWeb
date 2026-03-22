@@ -1,0 +1,620 @@
+================================================================
+TOZ YAPI TEKNOLOJILERI - WEB BUILDER TESLIM DOSYASI
+================================================================
+Proje: TOZ Smart Web Platform
+Tarih: 2026-03-21
+Versiyon: FINAL v1.0 - Production Ready
+Durum: Web Builder'a teslim edilecek
+================================================================
+
+BOLUM 1: PROJE OZETI VE TEMEL BILGILER
+================================================================
+
+MARKA: Toz Yapı Teknolojileri
+SEKTOR: Yapı teknolojileri, gölgeleme sistemleri, otomasyon
+KONUM: Ankara, Türkiye (Bilkent Center AVM)
+WEB: www.tozyapi.com.tr
+AI ASISTAN: Luna (Pazarlama-satış odaklı, çok dilli)
+
+RENK PALETI (4.html baz alınarak):
+- Ana Arka Plan: #0d0118 (Koyu Mor/Siyah)
+- Vurgu Renk 1: #8b5cf6 (Mor)
+- Vurgu Renk 2: #ec4899 (Pembe)
+- Vurgu Renk 3: #06b6d4 (Camgöbeği)
+- Gradient: Mor → Pembe → Camgöbeği
+
+NOT: 4.html çalışması ana tema olarak sabitlenmiştir.
+
+================================================================
+BOLUM 2: SITE MIMARISI (TOPIC CLUSTER MODEL)
+================================================================
+
+/ (Ana Sayfa)
+│
+├── /hakkimizda
+│   ├── Misyon & Vizyon
+│   ├── Tarihçe (2008'den beri)
+│   └── Luna AI tanıtımı
+│
+├── /urunler
+│   ├── /panjur
+│   │   ├── /aluminyum-panjur
+│   │   ├── /gizli-panjur
+│   │   ├── /monoblok-panjur
+│   │   ├── /bim-dosyalari (.rfa, .ifc, .dwg)
+│   │   ├── /teknik-dokumanlar (PDF)
+│   │   └── /sss
+│   │
+│   ├── /kepenk
+│   │   ├── /balistik-kepenk
+│   │   ├── /poliuretan-dolgulu
+│   │   └── /enerji-analizi
+│   │
+│   ├── /pergola
+│   │   ├── /bioclimatic
+│   │   ├── /rolling-roof
+│   │   ├── /gunes-simulasyonu (CANLI ARAÇ)
+│   │   └── /enerji-hesaplayici (CANLI ARAÇ)
+│   │
+│   ├── /otomatik-kapilar
+│   ├── /zip-perde
+│   ├── /kapi-pencere (Alüminyum/PVC/Ahşap)
+│   ├── /bim-kutuphanesi
+│   └── /teknik-kutuphane
+│
+├── /blog
+│   ├── /enerji-verimliligi
+│   ├── /akilli-otomasyon
+│   ├── /bim-teknoloji
+│   └── /mimari-cozumler
+│
+├── /hesaplama-araclari
+│   ├── /gunes-acisi-simulasyonu
+│   ├── /ruzgar-yuku-hesabi
+│   ├── /isi-yalitimi-analizi
+│   └── /golgeleme-optimizasyonu
+│
+├── /case-study (Vaka Analizleri)
+├── /referanslar
+├── /kataloglar (PDF indirme)
+├── /tozsolutions (Dijital hizmetler)
+├── /pergoclean (Coming Soon + Geri Sayım)
+└── /iletisim
+
+================================================================
+BOLUM 3: SEO STRATEJISI - ANAHTAR KELIME KÜMELERI
+================================================================
+
+CLUSTER 1: PANJUR SİSTEMLERİ
+- alüminyum panjur sistemleri (Commercial)
+- enerji tasarruflu panjur (Informational)
+- monoblok panjur teknik çizim (Technical)
+- passivhaus external shutter (Global)
+
+CLUSTER 2: PERGOLA & GÖLGELENDİRME
+- bioclimatic pergola system (Commercial)
+- pergola rüzgar dayanımı (Informational)
+- güneş enerjili pergola (Commercial)
+- pergola BIM revit (Technical)
+
+CLUSTER 3: ZIP PERDE
+- zip perde sistemleri (Commercial)
+- zip perde rüzgar testi (Technical)
+- motorlu zip perde (Commercial)
+
+CLUSTER 4: OTOMATİK KAPILAR
+- hermetik kapı teknik özellik (Technical)
+- endüstriyel seksiyonel kapı (Technical)
+- fotoselli kapı sensör sistemi (Informational)
+
+CLUSTER 5: CEPHE & BRİSE SOLEİL
+- aluminum brise soleil system (Global)
+- solar shading facade (Global)
+- facade energy performance (Technical)
+
+CLUSTER 6: ENERJİ & SÜRDÜRÜLEBİLİRLİK
+- passivhaus shading systems (Global)
+- energy efficient facade (Global)
+- LEED shading contribution (Technical)
+
+FEATURED SNIPPET HEDEFLERİ:
+- "Pergola kaç km rüzgara dayanır?"
+- "Zip perde hangi sertifikaya sahip olmalı?"
+- "Panjur ısı yalıtımına katkı sağlar mı?"
+- "Hermetik kapı nerede kullanılır?"
+
+================================================================
+BOLUM 4: TEKNİK DOKÜMANTASYON (RAKİPLERDEN ÜSTÜN)
+================================================================
+
+A) BIM & CAD KÜTÜPHANESİ (ZORUNLU):
+Her ana ürün için:
+- Revit (.rfa)
+- IFC
+- DWG
+- STEP
+- 3D PDF
+- Montaj animasyonu
+- Kesit detay çizimi
+- U-Value hesap dokümanı
+- Rüzgar dayanımı raporu
+- Yangın sertifika
+- CE & TSE belgeleri
+
+B) TEKNİK HESAPLAMA ARAÇLARI (DUCO'dan üstün):
+- Güneş pozisyon simülasyonu
+- Gölgeleme açısı hesaplayıcı
+- Enerji tasarruf simülasyonu
+- Cephe yük hesaplayıcı
+- Rüzgar basıncı analizi
+- Proje PDF çıktısı oluşturucu
+
+C) ENERJİ & SÜRDÜRÜLEBİLİRLİK:
+- Passivhaus uyumlu sistemler
+- LEED katkı puanları
+- BREEAM uyumluluk
+- Karbon ayak izi raporu
+
+================================================================
+BOLUM 5: LUNA AI SISTEMI (BLACKCORE AI ENTEGRASYONU)
+================================================================
+
+LUNA ÖZELLİKLERİ:
+- Pazarlama-satış gücü yüksek
+- Takip ve dokümantasyona hakim
+- Prezentabl, samimi ama profesyonel
+- Çok dilli (TR, EN, DE, AR, FR, IT)
+- 7/24 aktif
+
+YETENEKLER:
+1. AI Chatbot (WhatsApp entegre)
+2. Otomatik teklif üretici
+3. WhatsApp API otomasyon
+4. İçerik üretim AI
+5. Ürün öneri motoru
+6. Proje analiz AI
+
+ENTEGRE SİSTEMLER:
+- n8n workflow otomasyonları
+- Email automation
+- Instagram/TikTok/Pinterest auto-post
+- CRM integration (HubSpot/Mailchimp)
+
+================================================================
+BOLUM 6: ONLINE MAGAZA (GIZLI SISTEM)
+================================================================
+
+KAYNAK: www.poledoor.com
+- TÜM ürün grupları kopyalanacak
+- Alt gruplar dahil edilecek
+- Fiyatlar: %20 artırılarak eklenecek
+- Ürün açıklamaları aynı kalacak
+- Teknik detaylar korunacak
+- Renk paleti: TOZ temasına uyarlanacak
+- SİNIR YOK: Tüm ürünler eklenecek
+- GİZLİLİK: İçerikte hiçbir şekilde görünmeyecek
+
+================================================================
+BOLUM 7: BLOG SISTEMI (TRAFFIC ENGINE)
+================================================================
+
+KAYNAKLAR:
+- https://www.poledoor.com/blog-kategori/tum-yazilar/
+- Belirlenen konu başlıkları
+
+STRATEJİ:
+- 150+ blog yazısı planı
+- Long-tail keyword targeting
+- Internal linking machine
+- Cluster-based SEO
+- Schema markup (FAQ, Article, HowTo)
+
+İÇERİK TÜRLERİ:
+- Teknik dokümantasyon
+- BIM & CAD dosyaları
+- Enerji verimlilik analizi
+- Uzun kuyruk blog
+- Ürün teknik sayfaları
+- SSS + Schema
+- Case studies
+- Vaka analizleri
+
+================================================================
+BOLUM 8: TECH STACK (PRODUCTION READY)
+================================================================
+
+FRONTEND:
+- Next.js 14 (App Router)
+- TypeScript
+- TailwindCSS
+- Server Components
+- Recharts (analytics)
+
+BACKEND:
+- Node.js + Express
+- PostgreSQL
+- Redis cache
+- JWT auth
+- Rate limit (100 req/sec)
+
+INFRA:
+- Docker
+- Cloudflare CDN
+- HTTP/3
+- Brotli compression
+- CI/CD (GitHub Actions)
+
+GUVENLIK:
+- OWASP Top 10 protection
+- CSP strict
+- HSTS preload
+- Secure cookies
+- Input validation (Zod)
+- Helmet headers
+
+PERFORMANS:
+- Lighthouse: 95+
+- FCP <1.5s
+- LCP <2.2s
+- CLS <0.1
+- ISR (Incremental Static Regeneration)
+- Edge caching
+- Image optimization (WebP + AVIF)
+
+================================================================
+BOLUM 9: SEO DOSYALARI (OTOMATIK OLUSTURULACAK)
+================================================================
+
+robots.txt:
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /api/
+Sitemap: https://www.tozyapi.com.tr/sitemap.xml
+
+sitemap.xml:
+- Auto-generated
+- Multi-language support
+- Product pages included
+- Blog posts included
+- Technical docs included
+
+llms.txt:
+- Brand definition
+- Product categories
+- Technical expertise areas
+- Keyword clusters
+- Entity relationships
+- API endpoint descriptions
+
+hreflang:
+- TR (Turkish)
+- EN (English)
+- DE (German)
+- AR (Arabic)
+- FR (French)
+- IT (Italian)
+- FA (Farsi)
+- HR (Croatian)
+- SR (Serbian)
+- BS (Bosnian)
+- ZH (Chinese)
+
+================================================================
+BOLUM 10: SCHEMA.ORG YAPISI (AI OPTIMIZED)
+================================================================
+
+ZORUNLU SCHEMA TİPLERİ:
+1. Organization
+2. LocalBusiness
+3. Product (her ürün için)
+4. FAQPage (SSS için)
+5. Article (blog için)
+6. TechnicalArticle
+7. HowTo (kurulum rehberleri)
+8. BreadcrumbList
+9. VideoObject (videolar için)
+10. BIMObject (custom)
+11. EnergyEfficiency (custom)
+
+SCHEMA IMPLEMENTATION:
+- JSON-LD format
+- Her sayfada ilgili schema
+- Dynamic generation
+- AI crawler optimized
+
+================================================================
+BOLUM 11: BACKLINK & ANTI-SEO SISTEMI
+================================================================
+
+BACKLINK STRATEJİSİ:
+- Broken link yakalama (rakipler)
+- Mimari portallar (DR 60+)
+- BIM kütüphaneleri
+- Üniversite teknik makaleleri
+- Enerji verimliliği platformları
+- İnşaat sektörü dergileri
+
+HEDEF METRİKLER:
+- DR: 60+
+- Spam Score: <2%
+- Dofollow: >70%
+- TF/CF: Dengeli
+
+ANTI-SEO KORUMA:
+- Düzenli backlink temizliği
+- Spam link tespiti
+- Disavow automation
+- Toxic link monitoring
+- Ahrefs webhook entegrasyonu
+- Majestic API entegrasyonu
+
+================================================================
+BOLUM 12: SOSYAL MEDYA OTOMASYONU
+================================================================
+
+PLATFORMS:
+- Instagram (@toz.solutions)
+- TikTok
+- Pinterest
+- YouTube
+- LinkedIn
+
+OTOMASYON:
+- Auto-content creation (AI)
+- Auto-publishing
+- Traffic drive to website
+- Blog sync
+- Video content auto-upload
+
+CONTENT TYPES:
+- Ürün tanıtım videoları
+- Montaj animasyonları
+- Before/After projeler
+- Teknik bilgilendirme
+- Müşteri referansları
+
+================================================================
+BOLUM 13: ANALYTICS & RAPORLAMA
+================================================================
+
+GOOGLE ENTEGRASYONLARI:
+- Google Search Console API
+- Google Analytics 4 API
+- PageSpeed Insights API
+
+HATTA RAPORLAR:
+- Trafik raporu
+- Anahtar kelime değişimi
+- Backlink kalite kontrol
+- Spam link tespiti
+- SERP pozisyon takibi
+- Core Web Vitals monitoring
+
+DASHBOARD METRİKLERİ:
+- Total Users
+- Organizations
+- Plan distribution
+- API usage graph
+- Rate limit violations
+- Audit log movements
+- MRR (Monthly Recurring Revenue)
+
+================================================================
+BOLUM 14: 12 AYLIK BUYUME PLANI
+================================================================
+
+FAZ 1 - TEMEL ATMA (Ay 1-3):
+Ay 1: Teknik SEO + Pillar Pages
+Ay 2: BIM & Teknik Dokümantasyon
+Ay 3: Enerji & Sürdürülebilirlik
+
+FAZ 2 - TRAFIK CARPAN (Ay 4-8):
+Ay 4: Pergola & Zip Perde uzmanlığı
+Ay 5: Panjur & Kepenk uzmanlığı
+Ay 6: Otomatik Kapı sistemleri
+Ay 7: Cephe & Brise Soleil
+Ay 8: Uluslararası SEO
+
+FAZ 3 - GLOBAL LIDERLIK (Ay 9-12):
+Ay 9: Backlink kampanyası
+Ay 10: AI & GEO dominasyonu
+Ay 11: İçerik temizliği
+Ay 12: Authority expansion
+
+BEKLENEN SONUÇLAR (12 AY):
+- 150+ teknik içerik
+- 100+ long-tail sıralama
+- 30+ yüksek otoriteli backlink
+- 95+ Lighthouse skoru
+- AI sonuçlarında görünürlük
+- Mimar & mühendis lead üretimi
+
+================================================================
+BOLUM 15: ADMIN PANEL (ENTERPRISE)
+================================================================
+
+DASHBOARD SAYFALARI:
+- /admin/analytics (trafik grafikleri)
+- /admin/users (kullanıcı yönetimi)
+- /admin/billing (subscription)
+- /admin/logs (audit log)
+- /admin/seo (keyword tracking)
+- /admin/backlinks (backlink monitor)
+
+RBAC (ROLE BASED ACCESS CONTROL):
+- SUPER_ADMIN
+- ADMIN
+- EDITOR
+- VIEWER
+
+SUBSCRIPTION PLANS:
+- FREE (temel özellikler)
+- PRO (gelişmiş analytics)
+- ENTERPRISE (tüm özellikler)
+
+================================================================
+BOLUM 16: TEST MIMARISI
+================================================================
+
+TEST STACK:
+- Jest (Unit + Integration)
+- Supertest (API test)
+- Cypress (E2E)
+- Lighthouse CI
+
+COVERAGE THRESHOLD: ≥90%
+
+TEST KLASÖRLERİ:
+/tests/
+  /unit/
+    auth.test.ts
+    jwt.test.ts
+  /integration/
+    auth.routes.test.ts
+  /e2e/
+    login.cy.ts
+  /lighthouse/
+    config.js
+
+CI PIPELINE:
+- npm install
+- npm run test --coverage
+- npm run build
+- npm run lighthouse
+- Fail durumunda merge engelle
+
+================================================================
+BOLUM 17: DEPLOY REHBERI
+================================================================
+
+ADIM 1: Docker Build
+docker-compose build
+
+ADIM 2: Kubernetes Deploy
+kubectl apply -f infra/k8s/
+
+ADIM 3: Cloudflare CDN Setup
+- DNS records
+- SSL/TLS Full Strict
+- Cache rules
+- Page rules
+
+ADIM 4: Environment Variables
+.env dosyası:
+DATABASE_URL=postgresql://...
+REDIS_URL=redis://...
+JWT_SECRET=...
+NEXT_PUBLIC_API_URL=...
+
+ADIM 5: Domain & SSL
+- www.tozyapi.com.tr → Netlify/Vercel
+- SSL otomatik (Let's Encrypt)
+- www ve non-www yönlendirme
+
+================================================================
+BOLUM 18: KONTROL LISTESI (LAUNCH ONCESI)
+================================================================
+
+[ ] Tüm sayfalar responsive
+[ ] Lighthouse skoru 95+
+[ ] sitemap.xml doğru
+[ ] robots.txt doğru
+[ ] llms.txt doğru
+[ ] Schema markup test edildi
+[ ] hreflang tags doğru
+[ ] Canonical tags doğru
+[ ] 301/404 yönlendirmeleri çalışıyor
+[ ] Formlar çalışıyor
+[ ] WhatsApp float çalışıyor
+[ ] Luna AI entegre
+[ ] Analytics kodları eklendi
+[ ] Search Console eklendi
+[ ] SSL aktif (HTTPS)
+[ ] CDN aktif
+[ ] Compression aktif (Brotli)
+[ ] Image optimization (WebP)
+[ ] Core Web Vitals passed
+[ ] Mobile-first index ready
+[ ] Multi-language hazır
+
+================================================================
+BOLUM 19: RAKIP ANALIZI (EN IYI OZELLIKLER)
+================================================================
+
+DUCO'dan:
+✓ Kullanıcı dostu mobil arayüz
+✓ IoT/AI entegrasyonu
+✓ BIM/Revit library
+✓ Commissioning app
+
+Contrasol'dan:
+✓ Akıllı tasarım
+✓ Güçlü backlink profili
+✓ Niş ürün içerikleri
+
+Enviroblinds'dan:
+✓ Sensör entegrasyonu
+✓ Enerji tasarrufu içerikleri
+✓ Temiz backlink profili
+
+Sunprotect Aluprof'tan:
+✓ Mobil uygulama
+✓ Teknik dokümantasyon
+✓ Ürün katalog detayı
+
+SmartPergole'den:
+✓ AI destekli otomasyon
+✓ Güneş enerjili sistemler
+✓ Louvre panel kontrolü
+
+Fenestra'dan:
+✓ Panjur teknik detayları
+✓ Blog içerikleri
+✓ Ürün karşılaştırma
+
+================================================================
+BOLUM 20: OZEL NOTLAR WEB BUILDER'A
+================================================================
+
+1. 4.html ana tema olarak kullanılacak (Mor/Pembe gradient)
+2. Online mağaza GİZLİ olacak (içerikte görünmeyecek)
+3. Luna AI gerçekçi bir kadın avatar kullanacak
+4. SEO analiz kısmı gizlenecek
+5. Dil seçenekleri görünür olacak
+6. Poledoor entegrasyonu %20 fiyat artışı ile
+7. PergoClean için 2 aylık geri sayım sayacı
+8. TozSolutions bölümü dijital hizmetleri anlatacak
+9. Blog poledoor.com'dan uyarlanacak (renk paleti hariç)
+10. Hesaplama araçları CANLI çalışacak
+
+KRITIK UYARI:
+- Hiçbir placeholder bırakılmayacak
+- Basitleştirme yapılmayacak
+- Eksik component olmayacak
+- Production-ready kod yazılacak
+- Enterprise seviyesinde olacak
+
+================================================================
+SON: WEB BUILDER'A TESLIM EDILECEK DOSYALAR
+================================================================
+
+1. Bu dosya (TESLIM_DOSYASI.txt)
+2. 4.html (ana tema referansı)
+3. web.txt (detaylı gereksinimler)
+4. Mega Promt.txt (AI agency prompt)
+5. blackcore_ai_secret_prompt.txt (AI domination)
+6. ultra_merge_growth_prompt.txt (SEO growth)
+7. ultra_growth_engine_prompt.txt (auto content)
+
+WEB BUILDER BU DOSYALARI:
+1. Okuyacak ve anlayacak
+2. Tüm gereksinimleri uygulayacak
+3. Production-ready kod üretecek
+4. Test coverage ≥90% sağlayacak
+5. Lighthouse 95+ garantisi verecek
+6. Deployment-ready paketleyecek
+
+================================================================
+BELGE SONU - TOZ SMART WEB PLATFORM
+================================================================

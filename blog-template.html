@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<meta name="description" content="{BLOG_DESCRIPTION}"/>
+<meta name="keywords" content="{BLOG_KEYWORDS}"/>
+<meta name="author" content="Toz Yapı Teknolojileri"/>
+<meta name="robots" content="index, follow"/>
+
+<!-- Open Graph / Social Media -->
+<meta property="og:title" content="{BLOG_TITLE}"/>
+<meta property="og:description" content="{BLOG_DESCRIPTION}"/>
+<meta property="og:image" content="{BLOG_IMAGE}"/>
+<meta property="og:url" content="https://www.tozyapi.com.tr/blog/{BLOG_SLUG}"/>
+<meta property="og:type" content="article"/>
+
+<title>{BLOG_TITLE} | Toz Yapı Teknolojileri</title>
+
+<link rel="canonical" href="https://www.tozyapi.com.tr/blog/{BLOG_SLUG}"/>
+
+<!-- Favicon -->
+<link rel="icon" type="image/x-icon" href="../favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+<link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
+
+<!-- Google Analytics 4 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-XXXXXXXXXX');
+</script>
+
+<style>
+:root {
+  --bg: #0d0118;
+  --bg2: #110220;
+  --card: #17042a;
+  --border: #2d1050;
+  --purple: #8b5cf6;
+  --purple2: #a78bfa;
+  --pink: #ec4899;
+  --cyan: #06b6d4;
+  --text: #e2d9f3;
+  --text2: #8b7aa8;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Segoe UI', system-ui, sans-serif;
+  line-height: 1.6;
+}
+
+/* NAV */
+nav {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
+  background: rgba(13,1,24,0.98); backdrop-filter: blur(20px);
+  border-bottom: 1px solid rgba(139,92,246,0.2);
+  padding: 1rem 2rem;
+}
+.nav-container {
+  max-width: 1200px; margin: 0 auto;
+  display: flex; justify-content: space-between; align-items: center;
+}
+.logo-link {
+  display: flex; align-items: center; gap: 0.75rem;
+  text-decoration: none; color: #fff;
+}
+.logo-img { width: 42px; height: 42px; }
+.logo-text { font-size: 1.1rem; font-weight: 800; }
+.nav-links {
+  display: flex; gap: 2rem; list-style: none;
+}
+.nav-links a {
+  color: var(--text2); text-decoration: none;
+  font-size: 0.9rem; font-weight: 500;
+  transition: color 0.3s;
+}
+.nav-links a:hover { color: var(--purple2); }
+.back-btn {
+  padding: 0.6rem 1.4rem;
+  background: rgba(139,92,246,0.1);
+  color: var(--purple2); text-decoration: none;
+  border-radius: 50px; font-size: 0.85rem; font-weight: 600;
+  border: 1px solid rgba(139,92,246,0.3);
+  transition: all 0.3s;
+}
+.back-btn:hover { background: rgba(139,92,246,0.2); }
+
+/* BLOG HERO */
+.blog-hero {
+  min-height: 60vh;
+  background: linear-gradient(rgba(13,1,24,0.7), rgba(13,1,24,0.9)),
+              url('{BLOG_IMAGE}') center/cover;
+  display: flex; align-items: center; justify-content: center;
+  text-align: center;
+  margin-top: 70px;
+}
+.blog-hero-content { max-width: 800px; padding: 2rem; }
+.blog-badge {
+  display: inline-block;
+  padding: 0.4rem 1.2rem;
+  background: rgba(139,92,246,0.2);
+  border: 1px solid rgba(139,92,246,0.4);
+  border-radius: 50px;
+  font-size: 0.75rem; font-weight: 700;
+  color: var(--purple2);
+  letter-spacing: 0.1em; text-transform: uppercase;
+  margin-bottom: 1.5rem;
+}
+.blog-hero h1 {
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  font-weight: 900; color: #fff;
+  margin-bottom: 1rem; line-height: 1.2;
+}
+.blog-meta {
+  display: flex; gap: 2rem; justify-content: center;
+  font-size: 0.9rem; color: var(--text2);
+  margin-top: 1.5rem;
+}
+.blog-meta span { display: flex; align-items: center; gap: 0.5rem; }
+
+/* BLOG CONTENT */
+.blog-container {
+  max-width: 800px; margin: 0 auto;
+  padding: 4rem 2rem;
+}
+.blog-content {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  padding: 3rem;
+  margin-top: -100px;
+  position: relative;
+  z-index: 10;
+}
+.blog-content h2 {
+  font-size: 1.8rem; font-weight: 800;
+  color: #fff; margin: 2.5rem 0 1rem;
+}
+.blog-content h3 {
+  font-size: 1.4rem; font-weight: 700;
+  color: var(--purple2); margin: 2rem 0 1rem;
+}
+.blog-content p {
+  font-size: 1.05rem; color: var(--text);
+  line-height: 1.8; margin-bottom: 1.5rem;
+}
+.blog-content ul, .blog-content ol {
+  margin: 1.5rem 0 1.5rem 2rem;
+  color: var(--text);
+}
+.blog-content li { margin-bottom: 0.75rem; }
+.blog-content img {
+  max-width: 100%; height: auto;
+  border-radius: 12px;
+  margin: 2rem 0;
+  border: 1px solid var(--border);
+}
+.blog-content a {
+  color: var(--purple2); text-decoration: none;
+  transition: color 0.3s;
+}
+.blog-content a:hover { color: var(--pink); }
+
+/* CTA BOX */
+.cta-box {
+  background: linear-gradient(135deg, rgba(139,92,246,0.15), rgba(236,72,153,0.1));
+  border: 1px solid rgba(139,92,246,0.3);
+  border-radius: 16px;
+  padding: 2rem;
+  margin: 3rem 0;
+  text-align: center;
+}
+.cta-box h3 {
+  font-size: 1.5rem; color: #fff; margin-bottom: 1rem;
+}
+.cta-box p {
+  color: var(--text2); margin-bottom: 1.5rem;
+}
+.cta-btn {
+  display: inline-block;
+  padding: 1rem 2.5rem;
+  background: linear-gradient(135deg, var(--purple), var(--pink));
+  color: #fff; text-decoration: none;
+  border-radius: 50px; font-weight: 800;
+  transition: all 0.3s;
+}
+.cta-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 30px rgba(139,92,246,0.4);
+}
+
+/* RELATED POSTS */
+.related-posts {
+  max-width: 1200px; margin: 4rem auto 0; padding: 0 2rem;
+}
+.related-title {
+  font-size: 1.8rem; font-weight: 800;
+  color: #fff; text-align: center; margin-bottom: 2rem;
+}
+.related-grid {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+.related-card {
+  background: var(--card); border: 1px solid var(--border);
+  border-radius: 16px; padding: 1.5rem;
+  transition: all 0.3s; cursor: pointer;
+}
+.related-card:hover {
+  border-color: rgba(139,92,246,0.4);
+  transform: translateY(-4px);
+}
+.related-card h4 {
+  font-size: 1.1rem; font-weight: 700;
+  color: #fff; margin-bottom: 0.75rem;
+}
+.related-card p {
+  font-size: 0.9rem; color: var(--text2);
+  line-height: 1.6;
+}
+
+/* FOOTER */
+footer {
+  background: #080010;
+  border-top: 1px solid rgba(139,92,246,0.1);
+  padding: 3rem 2rem; margin-top: 4rem;
+}
+.footer-content {
+  max-width: 1200px; margin: 0 auto;
+  text-align: center; color: var(--text2);
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .nav-links { display: none; }
+  .blog-content { padding: 2rem; }
+  .blog-hero { min-height: 50vh; }
+}
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-container">
+    <a href="../index.html" class="logo-link">
+      <img src="../webSiteLogo/TozEcoLogo.png" alt="Toz Yapı Logo" class="logo-img"/>
+      <span class="logo-text">TOZ YAPI</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="../index.html#hakkimizda">Hakkımızda</a></li>
+      <li><a href="../index.html#urunler">Ürünler</a></li>
+      <li><a href="../Online Mağaza/index.html">Mağaza</a></li>
+      <li><a href="../index.html#iletisim">İletişim</a></li>
+    </ul>
+    <a href="../index.html" class="back-btn">← Ana Sayfa</a>
+  </div>
+</nav>
+
+<!-- BLOG HERO -->
+<section class="blog-hero">
+  <div class="blog-hero-content">
+    <span class="blog-badge">{BLOG_CATEGORY}</span>
+    <h1>{BLOG_TITLE}</h1>
+    <div class="blog-meta">
+      <span>📅 {BLOG_DATE}</span>
+      <span>⏱️ {BLOG_READ_TIME} dk okuma</span>
+      <span>✍️ Toz Yapı Ekibi</span>
+    </div>
+  </div>
+</section>
+
+<!-- BLOG CONTENT -->
+<div class="blog-container">
+  <article class="blog-content">
+    <!-- BLOG_CONTENT_START -->
+    
+    {BLOG_FULL_CONTENT}
+    
+    <!-- BLOG_CONTENT_END -->
+    
+    <!-- CTA BOX -->
+    <div class="cta-box">
+      <h3>Projeniz İçin Teklif Alın!</h3>
+      <p>Uzman ekibimizle iletişime geçin, size özel çözümler sunalım.</p>
+      <a href="https://wa.me/905367731404" class="cta-btn" target="_blank">WhatsApp ile İletişim →</a>
+    </div>
+  </article>
+</div>
+
+<!-- RELATED POSTS -->
+<section class="related-posts">
+  <h2 class="related-title">İlgili Yazılar</h2>
+  <div class="related-grid">
+    <div class="related-card" onclick="location.href='blog-slug-1.html'">
+      <h4>İlgili Yazı 1 Başlığı</h4>
+      <p>Kısa açıklama...</p>
+    </div>
+    <div class="related-card" onclick="location.href='blog-slug-2.html'">
+      <h4>İlgili Yazı 2 Başlığı</h4>
+      <p>Kısa açıklama...</p>
+    </div>
+    <div class="related-card" onclick="location.href='blog-slug-3.html'">
+      <h4>İlgili Yazı 3 Başlığı</h4>
+      <p>Kısa açıklama...</p>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-content">
+    <p>© 2026 Toz Yapı Teknolojileri. Tüm hakları saklıdır.</p>
+    <p style="margin-top: 0.5rem;">Bilkent Center AVM No:3, Çankaya/Ankara</p>
+    <p style="margin-top: 0.5rem;">
+      <a href="../index.html#iletisim" style="color: var(--purple2)">+90 536 773 14 04</a> ·
+      <a href="mailto:merhaba@tozyapi.com.tr" style="color: var(--purple2)">merhaba@tozyapi.com.tr</a>
+    </p>
+  </div>
+</footer>
+
+<script>
+// WhatsApp tracking
+document.querySelectorAll('a[href*="wa.me"]').forEach(link => {
+  link.addEventListener('click', function() {
+    if(typeof gtag !== 'undefined') {
+      gtag('event', 'whatsapp_click', {
+        'event_category': 'Blog',
+        'event_label': 'Blog CTA Button'
+      });
+    }
+  });
+});
+</script>
+
+</body>
+</html>

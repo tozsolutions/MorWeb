@@ -1,0 +1,14 @@
+================================================================
+HIZLI BAŞLANGIÇ - 5 DAKİKADA SİTE YAYINDA
+================================================================
+
+1. netlify.com → Ücretsiz hesap aç (Google ile)
+2. "Sites" → Klasörü sürükle bırak (1, 2, 3 veya 4)
+3. Sana link gelir → Test et
+4. index.html'de telefon/email güncelle
+5. Domain bağla (opsiyonel)
+
+HEPSI BU KADAR!
+
+Detaylı rehber için: DEPLOY_REHBERI_TAM.txt
+================================================================

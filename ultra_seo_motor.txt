@@ -1,0 +1,50 @@
+================================================================
+ULTRA SEO BÜYÜME MOTORU - v1.0
+================================================================
+Kaynak: ultra_merge_growth_prompt.txt + ultra_growth_engine_prompt.txt
+Tarih: 2026-03-21
+Durum: AKTİF
+================================================================
+
+GÖREV: Toz Yapı için otomatik SEO içerik fabrikası
+
+HEDEF ANAHTAR KELİMELER:
+Ana:
+- beton katkı maddesi
+- yapı kimyasalları
+- beton süperakışkanlaştırıcı
+- çimento katkısı Türkiye
+
+Uzun Kuyruk:
+- beton dayanımını artıran katkı maddesi
+- hazır beton için kimyasal katkı
+- priz geciktirici ne işe yarar
+- hava sürükleyici beton katkısı fiyat
+
+İÇERİK KALIPLARI:
+1. Ürün Sayfası Şablonu:
+   - H1: [Ürün Adı] | Toz Yapı Teknolojileri
+   - Meta: [Ürün] - Türkiye'nin güvenilir yapı kimyasalları markası
+   - Açıklama (150 kelime): Ne işe yarar, nasıl kullanılır, avantajları
+   - SSS (5 soru): Yaygın sorular + teknik yanıtlar
+   - CTA: "Ücretsiz Numune Talep Et"
+
+2. Blog Yazısı Şablonu:
+   - H1: [Anahtar Kelime] Hakkında Bilmeniz Gereken Her Şey
+   - Giriş (100 kelime): Problem tanımı
+   - Ana Bölümler (3-5 başlık): Detaylı açıklamalar
+   - Toz Yapı Bağlantısı: Doğal entegrasyon
+   - CTA: İletişim formu veya WhatsApp
+
+AYLIK İÇERİK HEDEFİ:
+- 4 blog yazısı
+- 2 ürün sayfası güncellemesi
+- 8 sosyal medya paylaşımı
+- 1 vaka çalışması
+
+OTOMASYON:
+Bu promptu n8n veya Make.com ile birleştirerek
+haftalık otomatik içerik üretimi yapabilirsin.
+n8n Workflow: Schedule → GPT-4 → Blog CMS → Yayın
+
+================================================================

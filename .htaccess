@@ -1,0 +1,105 @@
+# TOZ YAPI - GÜVENLİK AYARLARI (.htaccess)
+# Apache sunucular için güvenlik yapılandırması
+
+# PHP ayarlarını gizle
+php_flag display_errors Off
+php_value error_reporting 0
+
+# Sunucu imzasını kapat
+ServerSignature Off
+
+# Dizin listelemeyi kapat
+Options -Indexes
+
+# .env, .git, .log gibi hassas dosyaları engelle
+<FilesMatch "^\.">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+<FilesMatch "\.(env|git|log|sql|bak|backup)$">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+# Hassas uzantıları engelle
+<FilesMatch "\.(sh|exe|bat|cmd|ps1)$">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+# XML-RPC saldırılarını engelle (WordPress kullanılıyorsa)
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteRule ^xmlrpc\.php$ - [F,L]
+</IfModule>
+
+# HTTPS yönlendirmesi (SSL sertifikası varsa aktif et)
+# <IfModule mod_rewrite.c>
+#     RewriteEngine On
+#     RewriteCond %{HTTPS} off
+#     RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+# </IfModule>
+
+# www ekle/kaldır (tercih edin)
+# <IfModule mod_rewrite.c>
+#     RewriteEngine On
+#     RewriteCond %{HTTP_HOST} !^www\. [NC]
+#     RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/$1 [R=301,L]
+# </IfModule>
+
+# XSS Koruması
+<IfModule mod_headers.c>
+    Header set X-XSS-Protection "1; mode=block"
+    Header set X-Content-Type-Options "nosniff"
+    Header set X-Frame-Options "SAMEORIGIN"
+    Header set Referrer-Policy "strict-origin-when-cross-origin"
+    
+    # Content Security Policy (CSP)
+    Header set Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://wa.me; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https: blob:; connect-src 'self' https://wa.me;"
+    
+    # Permissions Policy
+    Header set Permissions-Policy "geolocation=(), microphone=(), camera=()"
+</IfModule>
+
+# MIME type güvenliği
+<IfModule mod_mime.c>
+    AddType text/html .html .htm
+    AddType text/css .css
+    AddType application/javascript .js
+    AddType image/svg+xml .svg
+</IfModule>
+
+# Erişim kontrolü - Admin klasörü (varsa)
+<IfModule mod_authz_core.c>
+    <DirectoryMatch "^.*/\.(git|svn|env)/">
+        Require all denied
+    </DirectoryMatch>
+</IfModule>
+
+# Rate limiting basit versiyonu (mod_evasive yüklüyse)
+# <IfModule mod_evasive20.c>
+#     DOSHashTableSize 3097
+#     DOSPageCount 5
+#     DOSSiteCount 50
+#     DOSPageInterval 1
+#     DOSSiteInterval 1
+#     DOSBlockingPeriod 10
+# </IfModule>
+
+# Sıkıştırma (Gzip)
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css application/javascript application/json
+</IfModule>
+
+# Cache kontrolü
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresByType text/css "access plus 1 month"
+    ExpiresByType application/javascript "access plus 1 month"
+    ExpiresByType image/jpeg "access plus 1 year"
+    ExpiresByType image/png "access plus 1 year"
+    ExpiresByType image/svg+xml "access plus 1 year"
+    ExpiresByType image/webp "access plus 1 year"
+    ExpiresByType font/woff2 "access plus 1 year"
+</IfModule>
